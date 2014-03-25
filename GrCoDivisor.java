@@ -1,5 +1,7 @@
 import java.util.Scanner;
-//It is for calculating greatest common divisor.
+//It is for calculating greatest common divisor (GCD),
+// GCD is also known as the greatest common factor (GCF)
+// or highest common factor (HCF)..
 public class GrCoDivisor{
 
 //1. Basic, and least efficiency (O(n), if n<m) 
@@ -46,7 +48,7 @@ public int calculateGCD3(int m, int n){
 }
 
 //4. Best efficiency ( O(log(n))); 
-// How to prove it?
+// Euclidean algorithm, How to prove it?
 public int calculateGCD4(int m, int n){
 	if(m%n==0){
 	return n;
